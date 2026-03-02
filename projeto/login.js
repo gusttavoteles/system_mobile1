@@ -4,10 +4,11 @@ function validarLogin() {
 
     if (usuario === "adm@1234" && senha === "1234") {
         alert("Login realizado com sucesso!");
-        window.location.href = "html/adm.html";
+        window.location.href = "../projeto/html/adm.html";
         return false;
     } else {
         alert("Usuário ou senha incorretos!");
         return false;
     }
+
 }
